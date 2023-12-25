@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+long int a,b;
+scanf("%ld%ld",&a,&b);
+if(a>b){
+printf("Maximum of %ld and %ld is %ld",a,b,a);
+else
+printf("Maximum of %ld and %ld is %ld",a,b,b);
+}
